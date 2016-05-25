@@ -269,9 +269,15 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'yhatch', u'yhatch Documentation',
-     author, 'yhatch', 'One line description of project.',
+     author, 'yhatch', 'Documentation for y.hatch Corporate dashboard setup.',
      'Miscellaneous'),
 ]
+
+html_theme = "bizstyle"
+html_theme_options = {
+    "rightsidebar": "false",
+    # "relbarbgcolor": "black"
+}
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
