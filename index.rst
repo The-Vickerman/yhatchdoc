@@ -99,6 +99,6 @@ Contents:
 .. toctree::
    :maxdepth: 6
 
-This is the credits guide.
+This is a check from vicky.
 
 
