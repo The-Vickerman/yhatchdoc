@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'yhatch'
-copyright = u'2016, Chandrashekar'
-author = u'Chandrashekar'
+copyright = u'2016, y.Hatch Team'
+author = u'y.Hatch Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -228,7 +228,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'yhatch.tex', u'yhatch Documentation',
-     u'Chandrashekar', 'manual'),
+     u'y.Hatch Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -278,7 +278,7 @@ texinfo_documents = [
 
 html_theme = "default"
 html_theme_options = {
-    "rightsidebar": "false",
+    "rightsidebar": "true",
     # "relbarbgcolor": "black"
  
 }
