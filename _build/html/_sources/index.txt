@@ -2,7 +2,10 @@
    sphinx-quickstart on Tue May 24 17:09:23 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
+.. toctree::
+   :maxdepth: 6
+   
+   
 INTRODUCTION
 ==================================
 
@@ -10,7 +13,8 @@ INTRODUCTION
 
 .. toctree::
    :maxdepth: 6
-Thank you for using **Y-Hatch** ,as an engagement solution for your business. ::
+   
+Thank you for using **Y-Hatch** as an engagement solution for your business. ::
 
  Y-Hatch is a simple SaaS product that gets embedded in your website (coming soon
  to mobile apps as well) and allows your visitors to concurrently chat with each 
@@ -187,7 +191,7 @@ Contact
 .. toctree::
    :maxdepth: 6
 
-The best way to get in touch with us is by email! Just shoot us one at admin@yhatch.com and we promise to get back to you within 24 business hours.  You can also call us at +91 9900 354400 for any queries (M-F, 9am to 6pm).
+The best way to get in touch with us is by email! Just shoot us one at ``admin@yhatch.com`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
 
 
 ADMIN LOGIN
