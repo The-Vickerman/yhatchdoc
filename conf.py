@@ -278,7 +278,7 @@ texinfo_documents = [
 
 html_theme = "default"
 html_theme_options = {
-    "rightsidebar": "true",
+    "rightsidebar": "false",
     # "relbarbgcolor": "black"
  
 }
