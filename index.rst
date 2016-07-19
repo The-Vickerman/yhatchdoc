@@ -91,7 +91,10 @@ Reload your website and you should now see the y-hatch Chat window at the bottom
 
 FAQ
 ==================
-
+.. toctree::
+   :maxdepth: 6
+   
+   
 What is the y.Hatch Chat window?
 ----------------------------------
 The y.Hatch chat window is a window that can be embedded on your website (and soon, integrated with your mobile app) where visitors to your website can concurrently chat with each other (and any of your representatives who may be online at the moment!). This allow visitors to quickly gain feedback about a product or service query that they may have. 
@@ -181,6 +184,8 @@ Embedding code::
 	
 Contact
 ===================
+.. toctree::
+   :maxdepth: 6
 
 The best way to get in touch with us is by email! Just shoot us one at admin@yhatch.com and we promise to get back to you within 24 business hours.  You can also call us at +91 9900 354400 for any queries (M-F, 9am to 6pm).
 
