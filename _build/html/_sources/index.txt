@@ -10,7 +10,7 @@ INTRODUCTION
 
 .. toctree::
    :maxdepth: 6
-Thank you for using **Y-Hatch** as an engagement solution for your business. ::
+Thank you for using **Y-Hatch** ,as an engagement solution for your business. ::
 
  Y-Hatch is a simple SaaS product that gets embedded in your website (coming soon
  to mobile apps as well) and allows your visitors to concurrently chat with each 
