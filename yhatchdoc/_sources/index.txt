@@ -22,13 +22,29 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Installation
+Getting Started
 ==================
-Contents:
+
 
 .. toctree::
    :maxdepth: 6
-This is the installation guide.
+Thank you for using Y-Hatch as an engagement solution for your business. Y-Hatch is a simple SaaS product that gets embedded in your website (coming soon to mobile as well) and allows your visitors to concurrently chat with each other and help each other out with the queries they have.
+
+The possibilities are endless. You can have your brand ambassadors representing you , providing expertise, and you can even have customer support reps assisting with specifics.  The whole idea is engage your visitors better , faster , provide them with valuable advice from brand ambassadors (Y-ACES ) , and grow your community.
+
+In this section, you will learn how to get started with Y-Hatch.  There are 3 crucial segments :
+
+CLIENT DASHBOARD
+--------------------
+The Y-Hatch Client Dashboard is your homebase. This is your Admin Dashboard section where , upon logging in, you will be seeing the analytics activity of all that has happened on your chat window on your site. 
+
+
+CHAT 
+--------------------
+
+Y-ACES DASHBOARD
+--------------------
+
 
 Configuration
 ==================
