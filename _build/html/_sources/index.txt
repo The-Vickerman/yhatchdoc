@@ -6,6 +6,7 @@
    :maxdepth: 6
    
    
+   
 INTRODUCTION
 ==================================
 
@@ -125,13 +126,13 @@ Any kind of question really! It might be do to with a product that they like and
 
 What is a poll? How can a poll be set-up?
 ----------------------------------
-Imagine a visitor who is trying to make up her mind between 2 tops , and wants a group opinion! All she has to do is create a poll which gets posted instantly on the room, and allows people to upvote their choices!  This way, she can get a crowdsourced decision made!
+Imagine a visitor who is trying to make up her mind between 2 tops , and wants a group opinion! All she has to do is ``create a poll`` which gets posted instantly on the room, and allows people to ``upvote`` their choices!  This way, she can get a crowdsourced decision made!
 
-Setting up  a poll is simple. There's a button called POLL in the chat box . A user has to simply click on it, ask the question (eg. " Which top do you guys think rocks?" )  , paste the 2 product option URLs on each of the option fields, and submit!   As simple as that, and the poll gets published for others to view and vote.
+Setting up  a poll is simple. There's a button called ``POLL`` in the chat box . A user has to simply click on it, ask the question (eg. " Which top do you guys think rocks?" )  , paste the 2 product option URLs on each of the option fields, and submit!   As simple as that, and the poll gets published for others to view and vote.
 
 How do people vote on a poll?
 -------------------------------
-Once the poll is published, the voting is simple. A user simply has to click on the upvote button  (denoted by a "HEART" icon) to cast in their vote. 1 user is limited to 1 vote.  Voting is currently restricted to only signed in users.
+Once the poll is published, the voting is simple. A user simply has to click on the ``upvote`` button  (denoted by a "HEART" icon) to cast in their vote. 1 user is limited to 1 vote.  Voting is currently restricted to only signed in users.
 
 Do the options on a poll necessarily have to be a product page URL?
 -----------------------
@@ -139,59 +140,84 @@ Not at all. A user can also put in free text . For example, a user on a travel p
 
 How many options can a user enter for a poll?
 ----------------------------
-Currently, a user can enter upto 4 options for a poll.
+Currently, a user can enter upto ``4 options`` for a poll.
 
 How do you upvote a someone's comment or reply?
 ----------------------------
-A user can upvote another question or comment by simply clicking the upvote button (denoted by a "HEART" symbol).  The upvote is currently restricted to signed in users only . 1 user is limited to 1 upvote per comment/question.
+A user can ``upvote`` another question or comment by simply clicking the upvote button (denoted by a "HEART" symbol).  The upvote is currently restricted to signed in users only . 1 user is limited to 1 upvote per comment/question.
 
 How can one reply to a question posted on the main chat room?
 --------------------------------------
-To reply to a question /poll posted , a user simply has to click on the COMMENT bubble on the right  and respond directly to it. All responses get threaded within.
+To reply to a question /poll posted , a user simply has to click on the ``COMMENT`` bubble on the right  and respond directly to it. All responses get threaded within.
 
 Are users allowed to report a comment they find offensive or inappropriate?
 --------------------------
 Yes they can.  For every comment posted on the main chat room or in the reply section, there is a Flag button (depicted with an "Exclamation" image) that a user can click. Upon clicking, he or she can choose the reason as to why it is inappropriate .
 
-Once reported, you will see this comment on your Client Dashboard.  All you need to do is ACCEPT the Flag (if you want to remove the respective Flagged comment from the Chat window) or REJECT it (if you want to allow the comment). If you ACCEPT the flag, it will automatically disappear from the Chat Window.  This ensures that moderation is managed.  
+Once reported, you will see this comment on your Client Dashboard.  All you need to do is ``ACCEPT`` the Flag (if you want to remove the respective Flagged comment from the Chat window) or ``REJECT`` it (if you want to allow the comment). If you ACCEPT the flag, it will automatically disappear from the Chat Window.  This ensures that moderation is managed.  
+
+Y-Hatch CLIENT DASHBOARD
+=================================
+
+Here , you will learn more about your client dashboard and  how to navigate it.
+
+Access and login
+-----------------------
+Once you have signed up  for an account from our website , you will receive a Welcome email with the details on how to log in.  Please proceed to  ``clients.yhatch.com`` to log in. You will see the screen below.
+
+.. image:: _static/client-login.png
+   :width: 500px
+   :alt: yhatch client dashboard
+   :target: http://clients.yhatch.com
 
 
+The ``username`` will be the email that you had used to sign up for a y-hatch account. The ``password will`` be one which you had set.
 
-ACES-DASHBOARD FAQ
-------------------
+In case you've forgotten your password, simply click on the Forgot Password link and you will receive an email. Just follow the instructions on the email to reset your password.
 
-This covers the documentation for the ACES DASHBOARD . 
+Client Dashboard Basics
+-------------------------------
+Once you sign in to your dashboard, you will see a view that looks like this.
 
-''this is how you write a love song''
-`this is a link<yhatch.com>`_
-``this is verbatim``
-**bold**
-*italics*
+.. image:: _static/client-dashboard.png
+   :width: 500px
+   :alt: yhatch client dashboard
+   :target: http://clients.yhatch.com
 
-.. code-block:: js
-    :linenos:
+There are 3 key elements:
 
-    
-	<script>var frameBody = '<iframe style="position: fixed; width:380px;
-	height:70%; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;"
-	frameBorder="0" src="http://www.eldew.com:3000/" ></iframe>';
-	$('body').append(frameBody);</script>
-	
-Embedding code:: 
-   
-    
-	<script>var frameBody = '<iframe style="position: fixed; width:380px;
-	height:70%; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;"
-	frameBorder="0" src="http://www.eldew.com:3000/" ></iframe>';
-	$('body').append(frameBody);</script>
+1. The left Side Navigation Panel
+2. The central Panel
+3. The top Menu bar
 
-	
+The central Panel is where all the key information is displayed. Let's go through the default analytics.
+
+Home view
+--------------------
+
+Time Frame:  the ``Time Frame`` basically sets the time window for all the data you want to see below. Drop down the field , select  from the last 30, 15, 7 or 1 day and click on ``SUBMIT``	.
+
+Total # messages :  This shows you the total number of chat messages for the time period. It gives a level of engagement that is happening.
+
+Total # Product shares:  When a person chatting copy and pastes a URL of a link from your website on the chat window, it is considered a product share. This gives the total count of the product shares during the time frame. It is a good way to understand how many of your products/services your visitors/users are talking about and which are the popular ones.
+
+Total #Users : This number tells you the new sign-ups that have happened in the time frame on y.Hatch for your website. It gives a good understanding of engagement patterns.
+
+WishList Ads:  This feature is coming soon. When a product share happens , or a poll takes place, we are planning to introduce feature by which a user can add that product to their wishlist. We will then share the ``wishlist`` details with you so that you can work on customized promotions.
+
+Average Messages per Chat: This feature is coming soon.  We are also introducing the ability for signed up users to talk in private with other users within the y.Hatch network . This number would be the average number of messages that have been exchanged over the ``total number of private chats``. It gives an  idea of if and how users may be collaborating on your products and services within their network of friends and family.
+
+Upvoted Messages: This tells you the number of ``upvotes`` that have taken place .
+
+Upvoted Replies : this tells you the number of ``upvotes`` that have been given to replies over the time period.
+
+
 Contact
 ===================
 .. toctree::
    :maxdepth: 6
 
-The best way to get in touch with us is by email! Just shoot us one at ``admin@yhatch.com`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
+The best way to get in touch with us is by email! Just shoot us one at ``hello@yhatch.com	`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
 
 
 ADMIN LOGIN
