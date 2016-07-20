@@ -197,7 +197,11 @@ Home view
 
 Time Frame:  the ``Time Frame`` basically sets the time window for all the data you want to see below. Drop down the field , select  from the last 30, 15, 7 or 1 day and click on ``SUBMIT``	.
 
-Total # messages :  This shows you the total number of chat messages for the time period. It gives a level of engagement that is happening.
+Total # messages :  This shows you the total number of chat messages for the time period. It gives an idea about the number of queries/questions or comments coming in.
+
+Total # Comments : This shows the total number of comments or replies that have been provided by users within a question on the public chat room.
+
+Average Comments per message : This gives the average number of comments per message posted on the public chat .  This gives you an understanding of how many responses are there on average to a question or query posted- the engagement level. 
 
 Total # Product shares:  When a person chatting copy and pastes a URL of a link from your website on the chat window, it is considered a product share. This gives the total count of the product shares during the time frame. It is a good way to understand how many of your products/services your visitors/users are talking about and which are the popular ones.
 
@@ -217,7 +221,7 @@ Contact
 .. toctree::
    :maxdepth: 6
 
-The best way to get in touch with us is by email! Just shoot us one at ``hello@yhatch.com	`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
+The best way to get in touch with us is by email! Just shoot us one at ``hello@yhatch.com`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
 
 
 ADMIN LOGIN
