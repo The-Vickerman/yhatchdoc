@@ -37,6 +37,8 @@ The ``Chat Window`` is the soul of our product. Once the code is embedded on you
 
 Y-ACES Dashboard
 --------------------
+NOTE: This is a feature that will be shortly introduced.
+
 The ``Y-ACES dashboard`` is a dashboard created exclusively for your high engaging visitors. Once your visitors or users begin asking questions, answering questions, upvoting  and much more, they are awarded points. Once they cross 100 points, they have exclusive access to their ``Y-ACES dashboard`` with their regular login .The Dashboard gives a single point of access to the engaged users. ::
 
 	A mobile app for Y-ACES Dashboard is coming soon.
@@ -92,6 +94,79 @@ Prior to the embedding the following code, please work with a your tech team and
 	
 
 Reload your website and you should now see the y-hatch Chat window at the bottom left. In case, you do not see it, please contact us immediately.
+
+
+Y-Hatch CLIENT DASHBOARD
+=================================
+
+Here , you will learn more about your client dashboard and  how to navigate it.
+
+Access and login
+-----------------------
+Once you have signed up  for an account from our website , you will receive a Welcome email with the details on how to log in.  Please proceed to  ``clients.yhatch.com`` to log in. You will see the screen below.
+
+.. image:: _static/client-login.png
+   :width: 500px
+   :alt: yhatch client dashboard
+   :target: http://clients.yhatch.com
+
+
+The ``username`` will be the email that you had used to sign up for a y-hatch account. The ``password will`` be one which you had set.
+
+In case you've forgotten your password, simply click on the Forgot Password link and you will receive an email. Just follow the instructions on the email to reset your password.
+
+Client Dashboard Basics
+-------------------------------
+Once you sign in to your dashboard, you will see a view that looks like this.
+
+.. image:: _static/client-dashboard.png
+   :width: 500px
+   :alt: yhatch client dashboard
+   :target: http://clients.yhatch.com
+
+There are 3 key elements:
+
+1. The left Side Navigation Panel
+2. The central Panel
+3. The top Menu bar
+
+The central Panel is where all the key information is displayed. Let's go through the default analytics.
+
+Overview
+--------------------
+
+Time Frame:  the ``Time Frame`` basically sets the time window for all the data you want to see below. Drop down the field , select  from the last 30, 15, 7 or 1 day and click on ``SUBMIT``	.
+
+Total # messages :  This shows you the total number of chat messages for the time period. It gives an idea about the number of queries/questions or comments coming in.
+
+Total # Comments : This shows the total number of comments or replies that have been provided by users within a question on the public chat room.
+
+Average Comments per message : This gives the average number of comments per message posted on the public chat .  This gives you an understanding of how many responses are there on average to a question or query posted- the engagement level. 
+
+Total # Product shares:  When a person chatting copy and pastes a URL of a link from your website on the chat window, it is considered a product share. This gives the total count of the product shares during the time frame. It is a good way to understand how many of your products/services your visitors/users are talking about and which are the popular ones.
+
+Total #Users : This number tells you the new sign-ups that have happened in the time frame on y.Hatch for your website. It gives a good understanding of engagement patterns.
+
+WishList Ads:  This feature is coming soon. When a product share happens , or a poll takes place, we are planning to introduce feature by which a user can add that product to their wishlist. We will then share the ``wishlist`` details with you so that you can work on customized promotions.
+
+Average Messages per Chat: This feature is coming soon.  We are also introducing the ability for signed up users to talk in private with other users within the y.Hatch network . This number would be the average number of messages that have been exchanged over the ``total number of private chats``. It gives an  idea of if and how users may be collaborating on your products and services within their network of friends and family.
+
+Upvoted Messages: This tells you the number of ``upvotes`` that have taken place .
+
+Upvoted Replies : this tells you the number of ``upvotes`` that have been given to replies over the time period.
+
+Manage Flags
+-------------------
+This is a very important part of your dashboard. This is where you will need to take action against comments/replies that have been flagged by users for moderation. 
+
+.. image:: _static/flag-moderation.png
+   :width: 500px
+   :alt: yhatch client dashboard
+   :target: http://clients.yhatch.com
+
+You can see the User who has flagged it, the User who has posted the comment, the Comment itself, and the reason why it has been flagged. You will need to take action on the flagged comment by pressing 1 of the 2 buttons. If you would like to remove the comment from being seen in the front end by users, click ``ACCEPT``. If you think the flag was not justified and want to continue letting users see the comment, click on ``REJECT``. Once moderated, you will not see the comment on the dashboard.
+
+If a comment is has been flagged by multiple users, you will see multiple entries on the dashboard. However, you will need to moderate only 1 of the comments on the dashboard, and it will effect the other same entries as well.
 
 
 FAQ
@@ -156,64 +231,7 @@ Yes they can.  For every comment posted on the main chat room or in the reply se
 
 Once reported, you will see this comment on your Client Dashboard.  All you need to do is ``ACCEPT`` the Flag (if you want to remove the respective Flagged comment from the Chat window) or ``REJECT`` it (if you want to allow the comment). If you ACCEPT the flag, it will automatically disappear from the Chat Window.  This ensures that moderation is managed.  
 
-Y-Hatch CLIENT DASHBOARD
-=================================
 
-Here , you will learn more about your client dashboard and  how to navigate it.
-
-Access and login
------------------------
-Once you have signed up  for an account from our website , you will receive a Welcome email with the details on how to log in.  Please proceed to  ``clients.yhatch.com`` to log in. You will see the screen below.
-
-.. image:: _static/client-login.png
-   :width: 500px
-   :alt: yhatch client dashboard
-   :target: http://clients.yhatch.com
-
-
-The ``username`` will be the email that you had used to sign up for a y-hatch account. The ``password will`` be one which you had set.
-
-In case you've forgotten your password, simply click on the Forgot Password link and you will receive an email. Just follow the instructions on the email to reset your password.
-
-Client Dashboard Basics
--------------------------------
-Once you sign in to your dashboard, you will see a view that looks like this.
-
-.. image:: _static/client-dashboard.png
-   :width: 500px
-   :alt: yhatch client dashboard
-   :target: http://clients.yhatch.com
-
-There are 3 key elements:
-
-1. The left Side Navigation Panel
-2. The central Panel
-3. The top Menu bar
-
-The central Panel is where all the key information is displayed. Let's go through the default analytics.
-
-Home view
---------------------
-
-Time Frame:  the ``Time Frame`` basically sets the time window for all the data you want to see below. Drop down the field , select  from the last 30, 15, 7 or 1 day and click on ``SUBMIT``	.
-
-Total # messages :  This shows you the total number of chat messages for the time period. It gives an idea about the number of queries/questions or comments coming in.
-
-Total # Comments : This shows the total number of comments or replies that have been provided by users within a question on the public chat room.
-
-Average Comments per message : This gives the average number of comments per message posted on the public chat .  This gives you an understanding of how many responses are there on average to a question or query posted- the engagement level. 
-
-Total # Product shares:  When a person chatting copy and pastes a URL of a link from your website on the chat window, it is considered a product share. This gives the total count of the product shares during the time frame. It is a good way to understand how many of your products/services your visitors/users are talking about and which are the popular ones.
-
-Total #Users : This number tells you the new sign-ups that have happened in the time frame on y.Hatch for your website. It gives a good understanding of engagement patterns.
-
-WishList Ads:  This feature is coming soon. When a product share happens , or a poll takes place, we are planning to introduce feature by which a user can add that product to their wishlist. We will then share the ``wishlist`` details with you so that you can work on customized promotions.
-
-Average Messages per Chat: This feature is coming soon.  We are also introducing the ability for signed up users to talk in private with other users within the y.Hatch network . This number would be the average number of messages that have been exchanged over the ``total number of private chats``. It gives an  idea of if and how users may be collaborating on your products and services within their network of friends and family.
-
-Upvoted Messages: This tells you the number of ``upvotes`` that have taken place .
-
-Upvoted Replies : this tells you the number of ``upvotes`` that have been given to replies over the time period.
 
 
 Contact
