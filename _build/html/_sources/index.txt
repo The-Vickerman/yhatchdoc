@@ -147,13 +147,20 @@ Total # Product shares:  When a person chatting copy and pastes a URL of a link 
 
 Total #Users : This number tells you the new sign-ups that have happened in the time frame on y.Hatch for your website. It gives a good understanding of engagement patterns.
 
-WishList Ads:  This feature is coming soon. When a product share happens , or a poll takes place, we are planning to introduce feature by which a user can add that product to their wishlist. We will then share the ``wishlist`` details with you so that you can work on customized promotions.
-
 Average Messages per Chat: This feature is coming soon.  We are also introducing the ability for signed up users to talk in private with other users within the y.Hatch network . This number would be the average number of messages that have been exchanged over the ``total number of private chats``. It gives an  idea of if and how users may be collaborating on your products and services within their network of friends and family.
 
 Upvoted Messages: This tells you the number of ``upvotes`` that have taken place .
 
 Upvoted Replies : this tells you the number of ``upvotes`` that have been given to replies over the time period.
+
+Coming soon
+-----------------
+
+There are some new features that are coming very shortly to your yhatch chat interface. 
+ 
+WishList Adds:  This feature will be introduced soon. When a product share happens , or a poll takes place, we are planning to introduce a feature (UI button) by which a user can add that product to their wishlist. We will then share the ``wishlist`` details with you so that you can work on customized promotions.
+
+Polls and Questions : Polls and questions will allow a user to create a poll that can be viewed and voted by everyone else. Imagine a situation where the user wants a crowd-sourced decision to select from 4 products or services.  Questions work similarly, where a user can ask a question and request for answers. The interesting thing about polls and questions is that it gives a structure to the questions, a user needs to categorize the poll or questions.
 
 Manage Flags
 -------------------
