@@ -84,13 +84,11 @@ Implementing the Y-Hatch chat window on your website is very simple.  The chat w
 Prior to the embedding the following code, please work with a your tech team and ensure you have backed up all your crucial files.  Now, proceed to your main index file (eg. index.php) and in the scripts section at the top, simply copy and paste the following and save.
 
 .. code-block:: js
-    :linenos:
-
     
-	<script>var frameBody = '<iframe style="position: fixed; width:380px;
-	height:70%; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;"
-	frameBorder="0" src="http://www.eldew.com:3000/" ></iframe>';
-	$('body').append(frameBody);</script>
+	   
+	<script>$(window).bind("load", function() {
+	var frameBody = '<iframe id="idIframe" draggable="true" style="position: fixed; width:380px; height: 550px; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;" frameBorder="0" src="http://www.eldew.com:3000/" ></iframe>';
+	$('body').prepend(frameBody);});</script>
 	
 
 Reload your website and you should now see the y-hatch Chat window at the bottom left. In case, you do not see it, please contact us immediately.
