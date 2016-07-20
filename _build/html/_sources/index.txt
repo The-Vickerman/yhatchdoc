@@ -86,9 +86,15 @@ Prior to the embedding the following code, please work with a your tech team and
 .. code-block:: js
     
 	   
-	<script>$(window).bind("load", function() {
-	var frameBody = '<iframe id="idIframe" draggable="true" style="position: fixed; width:380px; height: 550px; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;" frameBorder="0" src="http://www.eldew.com:3000/" ></iframe>';
-	$('body').prepend(frameBody);});</script>
+	<script type="text/javascript">
+	(function(){
+	var head= document.getElementsByTagName('head')[0];
+      var script= document.createElement('script');
+      script.type= 'text/javascript';
+      script.src= 'http://www.eldew.com:3000/js/yhatch_loader.js';
+      head.appendChild(script);
+	})();
+	</script>
 	
 
 Reload your website and you should now see the y-hatch Chat window at the bottom left. In case, you do not see it, please contact us immediately.

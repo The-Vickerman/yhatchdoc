@@ -108,9 +108,15 @@ You now have access to the client dashboard.</p>
 <h2>Chat Window on your website<a class="headerlink" href="#chat-window-on-your-website" title="Permalink to this headline">¶</a></h2>
 <p>Implementing the Y-Hatch chat window on your website is very simple.  The chat window is extremely light-weight and simple, and it will not add any noticeable loading time to your website.</p>
 <p>Prior to the embedding the following code, please work with a your tech team and ensure you have backed up all your crucial files.  Now, proceed to your main index file (eg. index.php) and in the scripts section at the top, simply copy and paste the following and save.</p>
-<div class="highlight-js"><div class="highlight"><pre><span></span>&lt;script&gt;$(window).bind(&quot;load&quot;, function() {
-var frameBody = &#39;&lt;iframe id=&quot;idIframe&quot; draggable=&quot;true&quot; style=&quot;position: fixed; width:380px; height: 550px; right: 0; bottom: 0; z-index: 9999; overflow-y: auto;&quot; frameBorder=&quot;0&quot; src=&quot;http://www.eldew.com:3000/&quot; &gt;&lt;/iframe&gt;&#39;;
-$(&#39;body&#39;).prepend(frameBody);});&lt;/script&gt;
+<div class="highlight-js"><div class="highlight"><pre><span></span>  &lt;script type=&quot;text/javascript&quot;&gt;
+  (function(){
+  var head= document.getElementsByTagName(&#39;head&#39;)[0];
+var script= document.createElement(&#39;script&#39;);
+script.type= &#39;text/javascript&#39;;
+script.src= &#39;http://www.eldew.com:3000/js/yhatch_loader.js&#39;;
+head.appendChild(script);
+  })();
+  &lt;/script&gt;
 </pre></div>
 </div>
 <p>Reload your website and you should now see the y-hatch Chat window at the bottom left. In case, you do not see it, please contact us immediately.</p>
