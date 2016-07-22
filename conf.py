@@ -14,7 +14,7 @@
 
 import sys
 import os
-
+import sphinx_rtd_theme
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -111,6 +111,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -276,12 +277,12 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-html_theme = "default"
-html_theme_options = {
-    "rightsidebar": "false",
+#html_theme = "default"
+#html_theme_options = {
+ #   "rightsidebar": "false",
     # "relbarbgcolor": "black"
  
-}
+#}
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []

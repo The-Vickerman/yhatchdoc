@@ -2,23 +2,13 @@
    sphinx-quickstart on Tue May 24 17:09:23 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-.. toctree::
-   :maxdepth: 6
-   
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-   
 INTRODUCTION
 ==================================
 
-
-
 .. toctree::
    :maxdepth: 6
+   :caption:
    
 Thank you for using **Y-Hatch** as an engagement solution for your business. ::
 
@@ -54,8 +44,6 @@ CONFIGURATION
 ==================
 We will show you how you can implement Y-Hatch in a matter of 5 minutes on your business website.
 
-.. toctree::
-   :maxdepth: 6
 
 Sign Up
 -------------------
@@ -187,8 +175,7 @@ If a comment is has been flagged by multiple users, you will see multiple entrie
 
 FAQ
 ==================
-.. toctree::
-   :maxdepth: 6
+
    
    
 What is the y.Hatch Chat window?
@@ -252,11 +239,18 @@ Once reported, you will see this comment on your Client Dashboard.  All you need
 
 Contact
 ===================
-.. toctree::
-   :maxdepth: 6
+
 
 The best way to get in touch with us is by email! Just shoot us one at ``hello@yhatch.com`` and we promise to get back to you within 24 business hours.  You can also call us at ``+91 9900 354400`` for any queries (M-F, 9am to 6pm).
 
+   
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+   
 
 ADMIN LOGIN
 **************
